@@ -8,19 +8,19 @@
 \contentsline {section}{\numberline {4}Planta L\IeC {\'o}gica - Elementos estruturados}{5}
 \contentsline {subsection}{\numberline {4.1}Estado atual}{5}
 \contentsline {subsection}{\numberline {4.2}Topologia}{8}
-\contentsline {subsection}{\numberline {4.3}Encaminhamento}{8}
-\contentsline {subsection}{\numberline {4.4}Memorial descritivo}{8}
-\contentsline {subsection}{\numberline {4.5}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{8}
-\contentsline {section}{\numberline {5}Implanta\IeC {\c c}\IeC {\~a}o}{8}
-\contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{8}
-\contentsline {section}{\numberline {7}Plano de manuten\IeC {\c c}\IeC {\~a}o}{9}
-\contentsline {subsection}{\numberline {7.1}Plano de expans\IeC {\~a}o}{9}
-\contentsline {section}{\numberline {8}Risco}{9}
-\contentsline {section}{\numberline {9}Or\IeC {\c c}amento}{9}
-\contentsline {section}{\numberline {10}Recomenda\IeC {\c c}\IeC {\~o}es}{9}
-\contentsline {section}{\numberline {11}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{9}
-\contentsline {section}{\numberline {12}Elementos textuais - Alguns exemplos}{10}
-\contentsline {subsection}{\numberline {12.1}Colocar elementos em itens}{10}
-\contentsline {subsubsection}{\numberline {12.1.1}Uma subse\IeC {\c c}\IeC {\~a}o de terceiro nivel}{10}
-\contentsline {subsection}{\numberline {12.2}Tabelas}{10}
-\contentsline {subsection}{\numberline {12.3}Figuras}{10}
+\contentsline {subsection}{\numberline {4.3}Encaminhamento}{11}
+\contentsline {subsection}{\numberline {4.4}Memorial descritivo}{11}
+\contentsline {subsection}{\numberline {4.5}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{11}
+\contentsline {section}{\numberline {5}Implanta\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {section}{\numberline {7}Plano de manuten\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {subsection}{\numberline {7.1}Plano de expans\IeC {\~a}o}{11}
+\contentsline {section}{\numberline {8}Risco}{12}
+\contentsline {section}{\numberline {9}Or\IeC {\c c}amento}{12}
+\contentsline {section}{\numberline {10}Recomenda\IeC {\c c}\IeC {\~o}es}{12}
+\contentsline {section}{\numberline {11}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{12}
+\contentsline {section}{\numberline {12}Elementos textuais - Alguns exemplos}{12}
+\contentsline {subsection}{\numberline {12.1}Colocar elementos em itens}{13}
+\contentsline {subsubsection}{\numberline {12.1.1}Uma subse\IeC {\c c}\IeC {\~a}o de terceiro nivel}{13}
+\contentsline {subsection}{\numberline {12.2}Tabelas}{13}
+\contentsline {subsection}{\numberline {12.3}Figuras}{13}
