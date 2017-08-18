@@ -1,59 +1,29 @@
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
 \begin{table}[]
-	\centering
-	\caption{My caption}
-	\label{my-label}
-	\begin{tabular}{ccccc}
-		\hline
-		\rowcolor[HTML]{9B9B9B} 
-		Sala   & \textbf{LOCAL}     & \textbf{TIPO DE SERVIÇO} & \textbf{IP} & \textbf{PORTA PONTO} \\ \hline
-		Sala1  & Sala Administração & Dados           & 172.17.0.18 	& TO1ASL1P2            \\ \hline
-		Sala1  & Sala Administração & Voz             & 10.10.12.18   	& TO1BSL1P2            \\ \hline
-		Sala1  & Sala Administração & Dados           & 172.17.0.19 	& TO2ASL1P2            \\ \hline
-		Sala1  & Sala Administração & Voz             & 10.10.12.19  	& TO2BSL1P2            \\ \hline
-		Sala2  & Sala de Reunião    & Dados           & 172.17.0.20 	& TO3ASL2P2            \\ \hline
-		Sala2  & Sala de Reunião    & Voz             & 10.10.12.20     & TO3BSL2P2            \\ \hline
-		Sala2  & Sala de Reunião    & Dados           & 172.17.0.21 	& TO4ASL2P2            \\ \hline
-		Sala2  & Sala de Reunião    & Voz             & 10.10.12.21     & TO4BSL2P2            \\ \hline
-		Sala2  & Sala de Reunião    & Dados           & 172.17.0.22 	& TO5ASL2P2            \\ \hline
-		Sala2  & Sala de Reunião    & Voz             & 10.10.12.22     & TO5BSL2P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Dados           & 172.17.0.23 	& TO6ASL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Voz             & 10.10.12.23     & TO6BSL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Dados           & 172.17.0.24 	& TO7ASL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Voz             & 10.10.12.24     & TO7BSL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Dados           & 172.17.0.25 	& TO8ASL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Voz             & 10.10.12.25     & TO8BSL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Dados           & 172.17.0.26 	& TO9ASL3P2            \\ \hline
-		Sala3  & Sala Arquitetura   & Voz             & 10.10.12.26     & TO9BSL3P2            \\ \hline
-		Sala4  & Sala4              & Dados      	  & 172.17.0.27 	& TO10ASL4P2           \\ \hline
-		Sala4  & Sala4              & Voz             & 10.10.12.27  	& TO10BSL4P2           \\ \hline
-		Sala4  & Sala4              & Dados      	  & 172.17.0.28 	& TO11ASL4P2           \\ \hline
-		Sala4  & Sala4              & Voz             & 10.10.12.28  	& TO11BSL4P2           \\ \hline
-		Sala5  & Sala5              & Dados        	  & 172.17.0.29 	& TO12ASL5P2           \\ \hline
-		Sala5  & Sala5              & Voz             & 10.10.12.29  	& TO12BSL5P2           \\ \hline
-		Sala5  & Sala5              & Dados       	  & 172.17.0.30 	& TO13ASL5P2           \\ \hline
-		Sala5  & Sala5              & Voz             & 10.10.12.30  	& TO13BSL5P2           \\ \hline
-		Sala6  & Sala6              & Dados        	  & 172.17.0.31 	& TO14ASL6P2           \\ \hline
-		Sala6  & Sala6              & Voz             & 10.10.12.31     & TO14BSL6P2           \\ \hline
-		Sala6  & Sala6              & Dados       	  & 172.17.0.32 	& TO15ASL6P2           \\ \hline
-		Sala6  & Sala6              & Voz             & 10.10.12.32     & TO15BSL6P2           \\ \hline
-		Sala7  & Sala7              & Dados        	  & 172.17.0.33 	& TO16ASL7P2           \\ \hline
-		Sala7  & Sala7              & Voz             & 10.10.12.33     & TO16BSL7P2           \\ \hline
-		Sala7  & Sala7              & Dados       	  & 172.17.0.34 	& TO17ASL7P2           \\ \hline
-		Sala7  & Sala7              & Voz             & 10.10.12.34     & TO17BSL7P2           \\ \hline
-		Sala8  & Sala8              & Dados        	  & 172.17.0.35 	& TO18ASL8P2           \\ \hline
-		Sala8  & Sala8              & Voz             & 10.10.12.35     & TO18BSL8P2           \\ \hline
-		Sala8  & Sala8              & Dados        	  & 172.17.0.36 	& TO19ASL8P2           \\ \hline
-		Sala8  & Sala8              & Voz             & 10.10.12.36     & TO19BSL8P2           \\ \hline
-		Sala9  & Sala9              & Dados       	  & 172.17.0.37 	& TO20ASL9P2           \\ \hline
-		Sala9  & Sala9              & Voz             & 10.10.12.37     & TO20BSL9P2           \\ \hline
-		Sala9  & Sala9              & Dados           & 172.17.0.38  	& TO21ASL9P2           \\ \hline
-		Sala9  & Sala9              & Voz             & 10.10.12.38     & TO21BSL9P2           \\ \hline
-		Sala10 & Copa               & Dados           & 172.17.0.39 	& TO22ASL10P2          \\ \hline
-		Sala10 & Copa               & Voz             & 10.10.12.39     & TO22BSL10P2          \\ \hline
-		Sala10 & Copa               & Dados           & 172.17.0.40 	& TO23ASL10P2          \\ \hline
-		Sala10 & Copa               & Voz             & 10.10.12.40     & TO23BSL10P2          \\ \hline
-	\end{tabular}
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{cccc}
+\hline
+\textbf{LOCAL} & \textbf{SERVIÇO} & \textbf{IP} & \textbf{PORTA/PONTO} \\ \hline
+Sala2          & Dados            & 172.17.0.16 & TO1ASL1P2            \\ \hline
+Sala2          & Voz              & 10.10.12.16 & TO1BSL1P2            \\ \hline
+Sala2          & Dados            & 172.17.0.17 & TO2ASL1P2            \\ \hline
+Sala2          & Voz              & 10.10.12.17 & TO2BSL1P2            \\ \hline
+Sala2          & Dados            & 172.17.0.18 & TO3ASL1P2            \\ \hline
+Sala2          & Voz              & 10.10.12.18 & TO3BSL1P2            \\ \hline
+Sala3          & Dados            & 172.17.0.19 & TO4ASL2P2            \\ \hline
+Sala3          & Voz              & 10.10.12.19 & TO4BSL2P2            \\ \hline
+Sala3          & Dados            & 172.17.0.20 & TO5ASL2P2            \\ \hline
+Sala3          & Voz              & 10.10.12.20 & TO5BSL2P2            \\ \hline
+Sala3          & Dados            & 172.17.0.21 & TO6ASL3P2            \\ \hline
+Sala3          & Voz              & 10.10.12.21 & TO6BSL3P2            \\ \hline
+Sala6          & Dados            & 172.17.0.22 & TO7ASL4P2            \\ \hline
+Sala6          & Voz              & 10.10.12.22 & TO7BSL4P2            \\ \hline
+Sala6          & Dados            & 172.17.0.23 & TO8ASL4P2            \\ \hline
+Sala6          & Voz              & 10.10.12.23 & TO8BSL4P2            \\ \hline
+Sala7          & Dados            & 172.17.0.24 & TO9ASL4P2            \\ \hline
+Sala7          & Voz              & 10.10.12.24 & TO9BSL4P2            \\ \hline
+Sala7          & Dados            & 172.17.0.25 & TO10ASL4P2           \\ \hline
+Sala7          & Voz              & 10.10.12.25 & TO10BSL4P2           \\ \hline
+\end{tabular}
 \end{table}
