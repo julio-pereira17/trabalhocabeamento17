@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  17 AUG 2017 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  17 AUG 2017 23:19
 entering extended mode
 **./modelo_projeto.tex
 (modelo_projeto.tex
@@ -932,7 +932,11 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip77
 \droptitle=\skip78
 )
-(modelo_projeto.aux)
+(modelo_projeto.aux (pontos_p1.aux) (pontos_p2.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+))
 \openout1 = `modelo_projeto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
@@ -959,8 +963,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\tferr\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
+ (C:\Users\tferr\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1117,18 +1120,39 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15
 
  [3
 
-]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
- [4
+] [4
 
 ]
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 230--235
+\openout2 = `pontos_p1.aux'.
+
+ (pontos_p1.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+) [5]
+\openout2 = `pontos_p2.aux'.
+
+ (pontos_p2.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+) [6]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
+ [7
+
+
+
+
+]
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 232--237
 []\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
 /, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[5] (modelo_projeto.bbl
+[8] (modelo_projeto.bbl
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1137,53 +1161,57 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-[6]) (tab2.tex) [7] <fig1.png, id=39, 608.2725pt x 423.5825pt>
+) [9] (tab2.tex) <fig1.png, id=45, 608.2725pt x 423.5825pt>
 File: fig1.png Graphic file (type png)
  <use fig1.png>
-Package pdftex.def Info: fig1.png used on input line 314.
+Package pdftex.def Info: fig1.png used on input line 316.
 (pdftex.def)             Requested size: 455.24417pt x 317.02682pt.
 
-<fig2.png, id=41, 214.8025pt x 516.93124pt>
+<fig2.png, id=47, 214.8025pt x 516.93124pt>
 File: fig2.png Graphic file (type png)
  <use fig2.png>
-Package pdftex.def Info: fig2.png used on input line 322.
+Package pdftex.def Info: fig2.png used on input line 324.
 (pdftex.def)             Requested size: 214.80197pt x 516.92998pt.
 
-<fig3.jpg, id=42, 533.5935pt x 361.35pt>
+<fig3.jpg, id=48, 533.5935pt x 361.35pt>
 File: fig3.jpg Graphic file (type jpg)
  <use fig3.jpg>
-Package pdftex.def Info: fig3.jpg used on input line 331.
+Package pdftex.def Info: fig3.jpg used on input line 333.
 (pdftex.def)             Requested size: 672.24995pt x 455.24417pt.
 
 
 AED: lastpage setting LastPage
-[8 <./fig1.png>] [9 <./fig2.png>] [10 <./fig3.jpg>] (modelo_projeto.aux) ) 
+[10] [11 <./fig1.png>] [12 <./fig2.png>] [13 <./fig3.jpg>] (modelo_projeto.aux
+(pontos_p1.aux) (pontos_p2.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11591 strings out of 493323
- 184459 string characters out of 3139067
- 505602 words of memory out of 3000000
- 14800 multiletter control sequences out of 15000+200000
+ 11615 strings out of 493323
+ 184797 string characters out of 3139067
+ 506602 words of memory out of 3000000
+ 14810 multiletter control sequences out of 15000+200000
  27183 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,77p,8827b,470s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
-vetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a
-.pfb>
-Output written on modelo_projeto.pdf (10 pages, 1941444 bytes).
+ 54i,12n,79p,8827b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/
+uhvro8a.pfb>
+Output written on modelo_projeto.pdf (13 pages, 1946681 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  29205 words of extra memory for PDF output out of 29859 (max. 10000000)
 
