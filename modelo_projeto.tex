@@ -24,6 +24,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage[ddmmyyyy]{datetime}
+\usepackage{placeins}
 \addto\captionsenglish{
 	\renewcommand\tablename{Tabela}
 	\renewcommand\figurename{Figura}
@@ -165,7 +166,7 @@
 %% ====================================
 %% ====================================
 \section{Introdução}
-O projeto será realizado para uma futura empresa privada de treinamentos profissionalizantes a JRT Treinamentos. Temos como objetivo ofertar o serviço de cabeamento estruturado (dados e voz). Utilizando padrões dentro das normas estabelecidas de cada elemento na rede, para uma futura certificação da mesma. O prédio em questão terá 2 pisos que serão interligados através de cabeamento horizontal ligado ao armário de telecomunicações que se interconectam por um backbone.
+O projeto será realizado para a empresa privada de treinamentos profissionalizantes a JRT Treinamentos. Temos como objetivo ofertar o serviço de cabeamento estruturado (dados e voz). Utilizando padrões dentro das normas estabelecidas de cada elemento na rede, para uma futura certificação da mesma. O prédio em questão terá 2 pisos que serão interligados através de cabeamento horizontal ligado ao armário de telecomunicações que se interconectam por um backbone.
 
 
 \subsection{Benefícios}
@@ -180,7 +181,7 @@ Com a utilização de normas regulamentadoras e produtos de qualidade poderemos 
 \end{itemize}
 
 \section{Requisitos}
-O projeto a ser realizado deverá fornecer um ponto de dados e voz para cada local onde existe uma mesa que possa ter um colaborador atuando e contara a principio com 14 pontos de dados e 14 pontos para voz para o piso 1 e 10 pontos de dados e 10 pontos de voz para o piso 2.\newline
+O projeto a ser realizado deverá fornecer um ponto de dados e voz para cada local onde existe uma mesa que possa ter um colaborador atuando, e contara a principio com 14 pontos de dados e 14 pontos para voz para o piso 1 e 10 pontos de dados e 10 pontos de voz para o piso 2.\newline
 Todo o cabeamento estruturado deverá ser implementado respeitando as normas que tratam desse assunto.
 
 \section{Usuários e Aplicativos}
@@ -197,14 +198,32 @@ Atualmente a empresa conta com 3 servidores virtuais sendo 1 servidor de arquivo
 \section{Planta Lógica - Elementos estruturados}
 
 \subsection{Estado atual}
-Deve ter a planta atual, se for o caso
+A construção conta com a seguinte estrutura atualmente, 6 salas no piso 1 onde dessas 6 salas 5 delas contarão com infraestrutura de dados e voz, e no piso 2 conta com 9 salas onde 4 delas contarão com infraestrutura de dados e voz.\newline
+Ambos os pisos contam com estrutura para passagem do cabeamento, como eletrocalhas, canaletas, dutos e caixas de passagem. As Figuras \ref{planta_p1} e \ref{planta_p2} exemplificam as plantas dos pisos 1 e 2 já com a disposição dos pontos.
+Para realizar as distribuições dos pontos foi utilizado o software Dutotec que trabalha em conjunto com o AutoCad.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{planta_p1}
+	\caption{Planta Piso 1}
+	\label{planta_p1}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{planta_p2}
+	\caption{Planta Piso 2}
+	\label{planta_p2}
+\end{figure}
+\FloatBarrier
 
 \subsection{Topologia}
 O layout do cabeamento horizontal se dá na topologia estrela, onde cada ponto de utilização está conectado ao concentrador de forma individual, evitando assim um blackout na rede. Para ligação dos pontos serão utilizados cabos UTP 6 acomodados em eletro calhas aparentes suspensas a 3 metros do chão. A tomadas de telecomunicações serão instaladas a 45 cm do chão.
 O Backbone é feito através de fibra óptica para evitar gargalos no tráfego entre um pavimento e o outro. Apesar da modularidade oferecida pela disposição da rede, os switches foram empilhados afim de melhorar o compartilhamento entre os equipamentos, sendo assim, o switch de dados do pavimento 1 esta empilhado com o switch de dados do pavimento 2, o que faz com que os equipamentos se comportem como se fossem um só. O mesmo acontece com o switch destinado a Telefonia.
 
 \subsection{Encaminhamento}
-O cabeamento foi realizado nos dois pisos, utilizando eletrocalhas, as tomadas de telecomunicações que disponibilizam dados e vos estão a 45cm do chão conforme as normas legais.
+Todo o cabeamento será realizado utilizando eletrocalhas em área aparente, todas as tomadas de telecomunicação que disponibilizam dados e voz estão a 45cm do chão conforme normas legais.
 
 \subsection{Memorial descritivo}
 
