@@ -276,19 +276,14 @@ A tabela \ref{planta_p2} representa a identificação dos pontos das 9 salas pre
 \input{pontos_p2}
 \FloatBarrier
 \section{Implantação}
-Estabeleça um cronograma de implantação:
-Remoção de equipamentos existentes (destino para descarte), instalação dos condutores, instalação dos cabos, 
-identificação dos cabos, montagem dos racks, certificação, etc... Crie atividades e estabeleça o tempo de execução. Se for um projeto real, indique também quais os responsáveis pela execução do projeto e de cada uma das etapas.
+A imagem \ref{cron} indica o cronograma para execução das etapas do projeto de cabeamento estruturado, desde a demarcação dos pontos até a finalização do projeto.
 
-Defina marcas (e padrões) e fornecedores se for o caso. Atenção a contratados e subcontratados para a realização das atividades. Estabeleça a responsabilidade de execução da atividade e também da validação dela.
-
-Utilize algum software para gerear o cronograma. Excel,etc. O fundamental é dividir em etapas, descrever e estimar o tempo de cada uma delas.
-
-Segue uma relação de ferramentas:
-http://asana.com/, 
-https://trello.com/, 
-http://www.ganttproject.biz/, 
-http://www.orangescrum.org/. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{cronograma}
+	\caption{Cronograma de Implementação}
+	\label{cron}
+\end{figure}
 
 \section{Plano de certificação}
 A certificação será executada por empresa diferente da executante do projeto no intuito de aumentar a confiabilidade dos testes executados no cabeamento;\newline
@@ -316,28 +311,24 @@ Os testes de 100\% dos segmentos de cabos deverão ser adotados os seguintes par
 A manutenção será realizada a cada 3 meses nos dois primeiros anos e a cada 6 meses posteriormente, Serão realizadas trocas de componentes defeituosos decorrente de problemas de fabricação por um período de 5 anos. Visitas extras serão solicitadas até em 5 dias úteis após a solicitação do contratante.
 
 \subsection{Plano de expansão}
-Existe um plano de expansão? Quantos novos pontos poderão ser acrecidos na rede, antes de migração de equipamentos na camada 2? Se houver expansão, quais equipamentos deverão ser direcionados para as estremidades da rede? 
+Existe um projeto de expansão no que diz respeito a criação de um laboratório de informática na escola para realizar treinamentos na área de TI, na infraestrutura proposta é possível o aumento de 14 pontos de dados e 14 pontos de voz para o piso 1 e aumento de 9 pontos de dados e 9 de voz para o piso 2.
 
-\section{Risco}
-Apresentar os riscos do projeto
+%\section{Risco}
+%Apresentar os riscos do projeto
 
 \section{Orçamento}
 Crie uma relação de orçamentos baseado na seções anteriores.
 
-\section{Recomendações}
-Observações e recomendações para o cliente.
+%\section{Recomendações}
+%Observações e recomendações para o cliente.
 
 \section{Referências bibliográficas}
-Utilize o mendley, o jabref ou diretamente o bibtex para gerenciar suas referências biliográficas. As referências são criadas automaticamente de acordo com o uso no texto.
-
-Exemplo: Redes de computadores, segundo \cite{t2013} é considerada..... Já \cite{kurose2010} apresenta uma versão...
-
-Analisando os pressupostos de \cite{ref3} e \cite{ref4} concluimos que....
-
-
-\renewcommand\refname{} %%Referências bibliográficas}  
-\bibliographystyle{ieeetr}
-\bibliography{referencias}  
-
-
+\begin{itemize}
+	\item ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 14565: Procedimento básico para elaboração de projetos de cabeamento de telecomunicações para rede interna estruturada. Rio de Janeiro: Abnt – Associação Brasileira de Normas Técnicas, 2000. 48 p.
+	
+	\item MARIN, Paulo Sérgio. Cabeamento Estruturado: Desenvolvendo cada passo: do projeto à instalação. 3. ed. São Paulo: Érica Ltda., 2010. 336 p.
+	
+	\item TELECOMMUNICATIONS INDUSTRY ASSOCIATION / ELECTRONIC INDUSTRIES ALLIANCE. 568-B.1-2001: Commercial Building Telecommunications Cabling Standard. Arlington, Va, Estados Unidos: Telecommunications Industry Association 2001, 2001. 79 p.
+	
+\end{itemize}
 \end{document}

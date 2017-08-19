@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  18 AUG 2017 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  18 AUG 2017 21:55
 entering extended mode
-**./Projeto.tex
-(Projeto.tex
+**./modelo_projeto.tex
+(modelo_projeto.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\tferr\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
@@ -935,12 +935,13 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip76
 \thanksmargin=\skip77
 \droptitle=\skip78
-) (Projeto.aux
+)
+(modelo_projeto.aux
 
 LaTeX Warning: Label `my-label' multiply defined.
 
 )
-\openout1 = `Projeto.aux'.
+\openout1 = `modelo_projeto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
 LaTeX Font Info:    ... okay on input line 126.
@@ -1058,7 +1059,7 @@ ne 152.
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 15
 2.
-(Projeto.lof
+(modelo_projeto.lof
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1075,7 +1076,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
 \tf@lof=\write3
-\openout3 = `Projeto.lof'.
+\openout3 = `modelo_projeto.lof'.
 
 
 
@@ -1088,9 +1089,9 @@ ne 155.
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 15
 5.
-(Projeto.lot)
+(modelo_projeto.lot)
 \tf@lot=\write4
-\openout4 = `Projeto.lot'.
+\openout4 = `modelo_projeto.lot'.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
@@ -1103,7 +1104,8 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
- [2
+
+[2
 
 ]
 
@@ -1116,9 +1118,9 @@ ne 160.
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 16
 0.
-(Projeto.toc)
+(modelo_projeto.toc)
 \tf@toc=\write5
-\openout5 = `Projeto.toc'.
+\openout5 = `modelo_projeto.toc'.
 
  [3
 
@@ -1127,34 +1129,36 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
  [4
 
-] <planta_p1.jpg, id=26, 1242.14063pt x 1364.09625pt>
+]
+<planta_p1.jpg, id=26, 1242.14063pt x 1364.09625pt>
 File: planta_p1.jpg Graphic file (type jpg)
-
-<use planta_p1.jpg>
+ <use planta_p1.jpg>
 Package pdftex.def Info: planta_p1.jpg used on input line 207.
 (pdftex.def)             Requested size: 455.24417pt x 499.94122pt.
- [5] [6 <./planta_p1.jpg>]
-<planta_p2.jpg, id=35, 1242.14063pt x 1320.43312pt>
+
+[5] [6 <./planta_p1.jpg>] <planta_p2.jpg, id=35, 1242.14063pt x 1320.43312pt>
 File: planta_p2.jpg Graphic file (type jpg)
- <use planta_p2.jpg>
+
+<use planta_p2.jpg>
 Package pdftex.def Info: planta_p2.jpg used on input line 215.
 (pdftex.def)             Requested size: 455.24417pt x 483.93867pt.
-
-[7 <./planta_p2.jpg>] <rack_p1.jpg, id=40, 1202.99437pt x 1465.72594pt>
+ [7 <./planta_p2.jpg>]
+<rack_p1.jpg, id=40, 1202.99437pt x 1465.72594pt>
 File: rack_p1.jpg Graphic file (type jpg)
-
-<use rack_p1.jpg>
+ <use rack_p1.jpg>
 Package pdftex.def Info: rack_p1.jpg used on input line 230.
 (pdftex.def)             Requested size: 455.24417pt x 554.67804pt.
  [8
 
-] [9 <./rack_p1.jpg>]
-<rack_p2.jpg, id=47, 1190.94937pt x 1419.05156pt>
+]
+[9 <./rack_p1.jpg>] <rack_p2.jpg, id=47, 1190.94937pt x 1419.05156pt>
 File: rack_p2.jpg Graphic file (type jpg)
- <use rack_p2.jpg>
+
+<use rack_p2.jpg>
 Package pdftex.def Info: rack_p2.jpg used on input line 238.
 (pdftex.def)             Requested size: 455.24417pt x 542.42819pt.
- [10 <./rack_p2.jpg>] <diagrama_logico.jpg, id=51, 1101.11375pt x 1341.01pt>
+ [10 <./rack_p2.jpg>]
+<diagrama_logico.jpg, id=51, 1101.11375pt x 1341.01pt>
 File: diagrama_logico.jpg Graphic file (type jpg)
 
 <use diagrama_logico.jpg>
@@ -1178,33 +1182,38 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
-) [15] <cronograma.jpg, id=68, 463.7325pt x 206.27063pt>
-File: cronograma.jpg Graphic file (type jpg)
- <use cronograma.jpg>
-Package pdftex.def Info: cronograma.jpg used on input line 283.
-(pdftex.def)             Requested size: 455.24417pt x 202.49948pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--293
-
+) [15]
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 287--292
+[]\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
+/, https://trello.com/, http://www.ganttproject.biz/,
  []
 
 [16
 
- <./cronograma.jpg>] 
+] (modelo_projeto.bbl
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 1.
+
+) 
 AED: lastpage setting LastPage
-[17] (Projeto.aux)
+[17] (modelo_projeto.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11617 strings out of 493323
- 185081 string characters out of 3139067
- 511699 words of memory out of 3000000
+ 11633 strings out of 493323
+ 185337 string characters out of 3139067
+ 511737 words of memory out of 3000000
  14831 multiletter control sequences out of 15000+200000
- 25087 words of font info for 94 fonts, out of 3000000 for 9000
+ 25550 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,77p,8820b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,12n,77p,8827b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1214,13 +1223,14 @@ fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/h
-elvetic/uhvro8a.pfb>
-Output written on Projeto.pdf (17 pages, 2685726 bytes).
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/
+uhvro8a.pfb>
+Output written on modelo_projeto.pdf (17 pages, 2638004 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28708 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28703 words of extra memory for PDF output out of 29859 (max. 10000000)
 

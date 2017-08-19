@@ -15,7 +15,5 @@
 \contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{16}
 \contentsline {section}{\numberline {7}Plano de manuten\IeC {\c c}\IeC {\~a}o}{17}
 \contentsline {subsection}{\numberline {7.1}Plano de expans\IeC {\~a}o}{17}
-\contentsline {section}{\numberline {8}Risco}{17}
-\contentsline {section}{\numberline {9}Or\IeC {\c c}amento}{17}
-\contentsline {section}{\numberline {10}Recomenda\IeC {\c c}\IeC {\~o}es}{17}
-\contentsline {section}{\numberline {11}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{17}
+\contentsline {section}{\numberline {8}Or\IeC {\c c}amento}{17}
+\contentsline {section}{\numberline {9}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{17}
