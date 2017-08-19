@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  18 AUG 2017 20:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  18 AUG 2017 21:29
 entering extended mode
 **./modelo_projeto.tex
 (modelo_projeto.tex
@@ -936,7 +936,11 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip77
 \droptitle=\skip78
 )
-(modelo_projeto.aux)
+(modelo_projeto.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
 \openout1 = `modelo_projeto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
@@ -963,8 +967,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\tferr\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
+ (C:\Users\tferr\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1140,26 +1143,52 @@ File: planta_p2.jpg Graphic file (type jpg)
 Package pdftex.def Info: planta_p2.jpg used on input line 215.
 (pdftex.def)             Requested size: 455.24417pt x 483.93867pt.
  [7 <./planta_p2.jpg>]
-<rack_p1.jpg, id=40, 1660.2025pt x 2347.77126pt>
+<rack_p1.jpg, id=40, 1202.99437pt x 1465.72594pt>
 File: rack_p1.jpg Graphic file (type jpg)
  <use rack_p1.jpg>
-Package pdftex.def Info: rack_p1.jpg used on input line 229.
-(pdftex.def)             Requested size: 455.24417pt x 643.75835pt.
+Package pdftex.def Info: rack_p1.jpg used on input line 230.
+(pdftex.def)             Requested size: 455.24417pt x 554.67804pt.
  [8
 
-] [9 <./rack_p1.jpg>] <rack_p2.jpg, id=47, 1660.2025pt x 2347.77126pt>
+]
+[9 <./rack_p1.jpg>] <rack_p2.jpg, id=47, 1190.94937pt x 1419.05156pt>
 File: rack_p2.jpg Graphic file (type jpg)
- <use rack_p2.jpg>
-Package pdftex.def Info: rack_p2.jpg used on input line 237.
-(pdftex.def)             Requested size: 455.24417pt x 643.75835pt.
 
-[10 <./rack_p2.jpg>]
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 264--269
+<use rack_p2.jpg>
+Package pdftex.def Info: rack_p2.jpg used on input line 238.
+(pdftex.def)             Requested size: 455.24417pt x 542.42819pt.
+ [10 <./rack_p2.jpg>]
+<diagrama_logico.jpg, id=51, 1101.11375pt x 1341.01pt>
+File: diagrama_logico.jpg Graphic file (type jpg)
+
+<use diagrama_logico.jpg>
+Package pdftex.def Info: diagrama_logico.jpg used on input line 246.
+(pdftex.def)             Requested size: 455.24417pt x 554.42165pt.
+ [11 <./diagrama_logico.jpg>] (equipamentos.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 3.
+
+) [12
+
+
+] [13] (pontos_p1.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+) [14] [15] (pontos_p2.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+) [16]
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 287--292
 []\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
 /, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[11
+[17
 
 ] (modelo_projeto.bbl
 
@@ -1170,36 +1199,43 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-) [12] (tab2.tex) <fig1.png, id=58, 608.2725pt x 423.5825pt>
+) (tab2.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [18] <fig1.png, id=78, 608.2725pt x 423.5825pt>
 File: fig1.png Graphic file (type png)
  <use fig1.png>
-Package pdftex.def Info: fig1.png used on input line 348.
+Package pdftex.def Info: fig1.png used on input line 371.
 (pdftex.def)             Requested size: 455.24417pt x 317.02682pt.
 
-<fig2.png, id=60, 214.8025pt x 516.93124pt>
+<fig2.png, id=80, 214.8025pt x 516.93124pt>
 File: fig2.png Graphic file (type png)
  <use fig2.png>
-Package pdftex.def Info: fig2.png used on input line 356.
+Package pdftex.def Info: fig2.png used on input line 379.
 (pdftex.def)             Requested size: 214.80197pt x 516.92998pt.
 
-<fig3.jpg, id=61, 533.5935pt x 361.35pt>
+<fig3.jpg, id=81, 533.5935pt x 361.35pt>
 File: fig3.jpg Graphic file (type jpg)
  <use fig3.jpg>
-Package pdftex.def Info: fig3.jpg used on input line 365.
+Package pdftex.def Info: fig3.jpg used on input line 388.
 (pdftex.def)             Requested size: 672.24995pt x 455.24417pt.
 
 
 AED: lastpage setting LastPage
-[13] [14 <./fig1.png>] [15 <./fig2.png>] [16 <./fig3.jpg>] (modelo_projeto.aux)
+[19] [20 <./fig1.png>] [21 <./fig2.png>] [22 <./fig3.jpg>] (modelo_projeto.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 11638 strings out of 493323
- 185291 string characters out of 3139067
- 505719 words of memory out of 3000000
- 14837 multiletter control sequences out of 15000+200000
- 27232 words of font info for 104 fonts, out of 3000000 for 9000
+ 11667 strings out of 493323
+ 185726 string characters out of 3139067
+ 506785 words of memory out of 3000000
+ 14854 multiletter control sequences out of 15000+200000
+ 27281 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,11n,77p,8827b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,12n,77p,8827b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1214,9 +1250,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
-Output written on modelo_projeto.pdf (16 pages, 3794636 bytes).
+Output written on modelo_projeto.pdf (22 pages, 4388934 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 29225 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 29230 words of extra memory for PDF output out of 29859 (max. 10000000)
 
