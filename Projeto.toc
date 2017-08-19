@@ -10,10 +10,10 @@
 \contentsline {subsection}{\numberline {4.2}Topologia}{8}
 \contentsline {subsection}{\numberline {4.3}Encaminhamento}{12}
 \contentsline {subsection}{\numberline {4.4}Memorial descritivo}{12}
-\contentsline {subsection}{\numberline {4.5}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{13}
-\contentsline {section}{\numberline {5}Implanta\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {section}{\numberline {7}Plano de manuten\IeC {\c c}\IeC {\~a}o}{17}
-\contentsline {subsection}{\numberline {7.1}Plano de expans\IeC {\~a}o}{17}
-\contentsline {section}{\numberline {8}Or\IeC {\c c}amento}{17}
+\contentsline {subsection}{\numberline {4.5}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{12}
+\contentsline {section}{\numberline {5}Implanta\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {section}{\numberline {7}Plano de manuten\IeC {\c c}\IeC {\~a}o}{16}
+\contentsline {subsection}{\numberline {7.1}Plano de expans\IeC {\~a}o}{16}
+\contentsline {section}{\numberline {8}Or\IeC {\c c}amento}{16}
 \contentsline {section}{\numberline {9}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{17}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  18 AUG 2017 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  18 AUG 2017 23:38
 entering extended mode
 **./Projeto.tex
 (Projeto.tex
@@ -1160,7 +1160,8 @@ File: diagrama_logico.jpg Graphic file (type jpg)
 <use diagrama_logico.jpg>
 Package pdftex.def Info: diagrama_logico.jpg used on input line 246.
 (pdftex.def)             Requested size: 455.24417pt x 554.42165pt.
- [11 <./diagrama_logico.jpg>] (equipamentos.tex
+ [11 <./diagrama_logico.jpg>] (equipamentos.tex)
+(pontos_p1.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
@@ -1168,17 +1169,12 @@ LaTeX Warning: No positions in optional float specifier.
 ) [12
 
 
-] (pontos_p1.tex
+] [13] (pontos_p2.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
-) [13] [14] (pontos_p2.tex
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1.
-
-) [15] <cronograma.jpg, id=68, 463.7325pt x 206.27063pt>
+) [14] <cronograma.jpg, id=65, 463.7325pt x 206.27063pt>
 File: cronograma.jpg Graphic file (type jpg)
  <use cronograma.jpg>
 Package pdftex.def Info: cronograma.jpg used on input line 283.
@@ -1188,9 +1184,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--293
 
  []
 
-[16
+[15
 
- <./cronograma.jpg>] 
+ <./cronograma.jpg>] (orcamento.tex) [16] 
 AED: lastpage setting LastPage
 [17] (Projeto.aux)
 
@@ -1198,10 +1194,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11617 strings out of 493323
- 185081 string characters out of 3139067
- 511699 words of memory out of 3000000
- 14831 multiletter control sequences out of 15000+200000
+ 11624 strings out of 493323
+ 185170 string characters out of 3139067
+ 512732 words of memory out of 3000000
+ 14835 multiletter control sequences out of 15000+200000
  25087 words of font info for 94 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,77p,8820b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1218,7 +1214,7 @@ cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10
 iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/h
 elvetic/uhvro8a.pfb>
-Output written on Projeto.pdf (17 pages, 2685726 bytes).
+Output written on Projeto.pdf (17 pages, 2687916 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
