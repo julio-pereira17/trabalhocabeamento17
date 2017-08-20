@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  20 AUG 2017 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.7)  20 AUG 2017 11:01
 entering extended mode
 **./Projeto.tex
 (Projeto.tex
@@ -1036,15 +1036,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<utfpr.jpeg, id=1, 97.36375pt x 35.13126pt>
-File: utfpr.jpeg Graphic file (type jpg)
- <use utfpr.jpeg>
-Package pdftex.def Info: utfpr.jpeg used on input line 144.
-(pdftex.def)             Requested size: 97.3635pt x 35.13115pt.
+<logo.jpg, id=1, 207.02344pt x 49.68562pt>
+File: logo.jpg Graphic file (type jpg)
+ <use logo.jpg>
+Package pdftex.def Info: logo.jpg used on input line 144.
+(pdftex.def)             Requested size: 207.02292pt x 49.6855pt.
  [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./utfpr.jpeg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.jpg>]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1187,8 +1187,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--293
 AED: lastpage setting LastPage
 [17] (Projeto.aux) ) 
 Here is how much of TeX's memory you used:
- 11625 strings out of 493323
- 185182 string characters out of 3139067
+ 11623 strings out of 493323
+ 185164 string characters out of 3139067
  512702 words of memory out of 3000000
  14836 multiletter control sequences out of 15000+200000
  25087 words of font info for 94 fonts, out of 3000000 for 9000
@@ -1207,7 +1207,7 @@ sfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Projeto.pdf (17 pages, 2687539 bytes).
+Output written on Projeto.pdf (17 pages, 2685247 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
